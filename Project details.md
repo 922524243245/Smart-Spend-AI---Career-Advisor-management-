@@ -8,27 +8,27 @@ SMARTSPEND AI – Career Advisor
 
 2. Abstract
 
-SMARTSPEND AI – Career Advisor is an intelligent career guidance system that helps students and job seekers choose suitable career paths based on their interests, skills, qualifications, and career goals. The system analyzes user inputs and provides personalized career recommendations along with learning resources and career development guidance.
+SMARTSPEND AI – Career Advisor is an intelligent career guidance system that helps students ti choose suitable career paths based on their interests, skills, qualifications, and career goals by their expenses. The system analyzes user inputs and provides personalized career recommendations along with learning resources, savings and career development guidance.
 
-The main objective of the project is to reduce confusion in career selection and help users make informed decisions regarding their future profession.
+The main objective of the project is to reduce confusion in career selection and help users make informed decisions regarding their future profession by their expenses and savings.It is mostly used to protect from the unnecessary spendings in unwanted things
 
 ---
 
 3. Problem Statement
 
-Many students and job seekers face difficulties in selecting the right career path due to lack of guidance, awareness, and understanding of available opportunities. Traditional career counseling methods are often expensive, time-consuming, and not easily accessible.
+Many students and job seekers face difficulties in selecting the right career path due to lack of expenses and understanding of available opportunities in low money. Traditional career counseling methods are often expensive, time-consuming, and not easily accessible.
 
-The proposed SMARTSPEND AI – Career Advisor system aims to provide an intelligent and user-friendly platform that recommends suitable career options based on user profiles and preferences.
+The proposed SMARTSPEND AI – Career Advisor system aims to provide an intelligent and user-friendly platform that recommends suitable career options based on user profiles and expenses.
 
 ---
 
 4. Objectives
 
-- To provide personalized career recommendations.
+- To provide personalized career recommendations within their expenses.
 - To analyze user interests and skills.
 - To guide users towards suitable career opportunities.
-- To suggest learning resources and skill development programs.
-- To reduce career selection uncertainty.
+- To suggest learning resources and skill development programs to not to waste money on unnecessary things.
+- To reduce career selection uncertainty for middle class and poor users.
 
 ---
 
@@ -36,11 +36,9 @@ The proposed SMARTSPEND AI – Career Advisor system aims to provide an intellig
 
 The system can be used by:
 
-- School students
 - College students
 - Fresh graduates
 - Job seekers
-- Career changers
 
 The project focuses on career recommendation and guidance rather than job placement.
 
@@ -56,13 +54,13 @@ Module 2: Profile Management
 
 Users enter educational qualifications, skills, and interests.
 
-Module 3: Career Assessment
+Module 3: expense management
 
-The system evaluates user data and career preferences.
+The system evaluates user data, expense tracker and career preferences.
 
 Module 4: Career Recommendation
 
-Suitable career options are generated based on assessment results.
+Suitable career options are generated based on learning skills by their unnecessary spendings.
 
 Module 5: Learning Resource Suggestion
 
@@ -81,7 +79,7 @@ Hardware Requirements
 Software Requirements
 
 - Operating System: Windows 10/11
-- Programming Language: Python
+- Programming Language: Java
 - Database: MySQL
 - Frontend: HTML, CSS, JavaScript
 - IDE: VS Code
@@ -97,33 +95,27 @@ USER
 - User_ID (PK)
 - Name
 - Email
-- Password
+- age
 - Qualification
-- Skills
 
-CAREER_ASSESSMENT
+EXPENSE 
 
-- Assessment_ID (PK)
-- User_ID (FK)
-- Interests
-- Strengths
+- Expense_ID
+- Amount 
+- Category 
+
+CAREER_RECOMMENDATION
+
+- Recommendation_ID
 - Score
+- Date
 
-CAREER_SUGGESTION
+CAREER
 
-- Suggestion_ID (PK)
-- Assessment_ID (FK)
+- Career_ID
 - Career_Name
-- Description
-- Salary_Range
-
-LEARNING_RESOURCE
-
-- Resource_ID (PK)
-- Suggestion_ID (FK)
-- Course_Name
-- Platform
-- Link
+- Salary_range_and_certifications
+- Skills
 
 Relationships
 
@@ -141,7 +133,7 @@ User registers and logs into the system.
 
 Step 2
 
-User enters educational details, skills, and interests.
+User enters expense details, and Qualification 
 
 Step 3
 
@@ -149,7 +141,7 @@ The system analyzes the provided information.
 
 Step 4
 
-Career assessment is performed.
+Career recommendation is performed.
 
 Step 5
 
@@ -157,7 +149,7 @@ Suitable career options are recommended.
 
 Step 6
 
-Learning resources and courses are suggested.
+Learning resources and courses are suggested within their expenses.
 
 Step 7
 
@@ -171,7 +163,8 @@ User reviews recommendations and plans career growth.
 - Personalized recommendations
 - Time-saving
 - Accessible anytime
-- Helps in career planning
+- Helps in career planning and savings 
+- best future 
 
 ---
 
@@ -187,4 +180,4 @@ User reviews recommendations and plans career growth.
 
 12. Conclusion
 
-SMARTSPEND AI – Career Advisor provides an intelligent solution for career guidance. The system assists users in identifying suitable career paths based on their interests, qualifications, and skills. It improves career decision-making and supports continuous learning and professional growth.
+SMARTSPEND AI – Career Advisor provides an intelligent solution for career guidance. The system assists users in identifying suitable career paths based on their expenses,interests, qualifications, and skills. It improves career decision-making and supports continuous learning and professional growth.
