@@ -38,7 +38,6 @@ The system can be used by:
 
 - College students
 - Fresh graduates
-- Job seekers
 
 The project focuses on career recommendation and guidance rather than job placement.
 
@@ -119,8 +118,8 @@ CAREER
 
 Relationships
 
-- One User can have many Assessments.
-- One Assessment can generate many Career Suggestions.
+- One User can have many recommendations.
+- One recommendation can generate many Career Suggestions.
 - One Career Suggestion can have many Learning Resources.
 
 ---
